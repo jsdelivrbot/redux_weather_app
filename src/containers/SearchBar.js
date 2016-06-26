@@ -30,6 +30,7 @@ class SearchBar extends React.Component{
           className='input-group'>
           <input
             className='form-control'
+            placeholder='Enter US City for 5-day forecast...'
             value={this.state.term}
             onChange={this.handleInputChange} />
           <span className='input-group-btn'>

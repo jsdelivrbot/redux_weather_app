@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>Go shoot the moon.</h1>
+        <h1>React + Redux Weather Forecast App</h1>
         <SearchBar />
         <WeatherList />
       </div>
