@@ -15,6 +15,6 @@ export function fetchApi(city){
   const req = axios.get(url);
   return{
     type: FETCH_API,
-    payload: req
+    payload: req //returning axios promise as payload 'req'
   };
 }
